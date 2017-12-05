@@ -10,7 +10,7 @@ class App {
     initializePusher() {
       Pusher.logToConsole = true;
   
-      this.pusher = new Pusher('5ecd3e80a871b281764f', {
+      this.pusher = new Pusher('APP_ID', {
         cluster: 'eu',
         encrypted: true
       });
