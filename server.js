@@ -9,7 +9,7 @@ var pusher = new Pusher({
   encrypted: true
 });
 
-let i
+let i = 0;
 setInterval(() => {
   // const NDAQ = stockData[0]['Trades'][i];
   const GOOG = stockData[1]['Trades'][i];
